@@ -1,0 +1,86 @@
+.logo
+{
+	font-size: 25px;
+	width : 150px;
+    margin-top: 8px;
+    font-family: cursive;
+    color: aliceblue;
+    padding-left: 10px;
+}
+
+#headerr
+{
+    background-color: darkviolet;
+    border-radius: 0px;
+}
+
+#headerr:hover, #header:visited
+{
+    background-color: darkviolet;
+}
+
+.navbar-toggle
+{
+    border: black solid 1px;
+    color: aliceblue;
+    position: relative;
+    left: 0px;
+    top: -40px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #ffffff;
+}
+section
+{
+    border: white 5px solid;
+}
+div section
+{
+    /*background-color:darkcyan;*/
+     background-color: darkcyan;
+     padding: 10 10 10 10;
+}
+
+p {
+  width: 100%;
+  font-family: cursive;  
+  font-size: 15px;   
+}
+
+h1,h3
+{
+  font-family: cursive;
+  text-align: center;    
+}
+a
+{
+    color: aliceblue;
+}
+
+p a
+{
+    color: blue;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+body
+{
+    margin-bottom: 30px;
+}
+
+#collapsable-nav a
+{
+    font-size: 2em;
+    color: aliceblue;
+    margin-right: 5px;
+    text-align: center;
+  }
+@media(min-width: 767px)
+{
+   #collapsable-nav a
+    {
+        display: none;
+    }
+}
